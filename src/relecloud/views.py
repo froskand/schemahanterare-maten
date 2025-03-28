@@ -1,4 +1,4 @@
-from typing import Any, Dict
+from typing import Any, dict
 
 from django.contrib.messages.views import SuccessMessageMixin
 from django.shortcuts import render
