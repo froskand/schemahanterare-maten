@@ -5,7 +5,7 @@ permissions:
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 2 * * 1" # Every Monday at 2am
+    - cron: "0 2 1 1 *" # Run only jan 1st at 2am
 jobs:
   update:
     runs-on: ubuntu-latest
